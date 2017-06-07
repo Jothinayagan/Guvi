@@ -25,21 +25,23 @@ class CirRectTri
     {
         Scanner s=new Scanner(System.in);
         System.out.println("Area of Circle:");
-        System.out.println("Enter radius:");
+        //System.out.println("Enter radius:");
+        float circ;
         float cirad=s.nextFloat();
+        System.out.println(cicl(cirad));
+        
         System.out.println("Area of Rectangle:");
-        System.out.println("Enter width and height:");
+        //System.out.println("Enter width and height:");
         float recwid=s.nextFloat();
         float rechet=s.nextFloat();
+        float rect;
+        System.out.println(rectan(recwid,rechet));
+        
         System.out.println("Area of Triangle:");
-        System.out.println("Enter breath and height:");
+        //System.out.println("Enter breath and height:");
         float tribre=s.nextFloat();
         float trihet=s.nextFloat();
-        float circ;
-        float rect;
         float tri;
-        System.out.println(cicl(cirad));
-        System.out.println(rectan(recwid,rechet));
         System.out.println(trinle(tribre,trihet));
     }
 }
