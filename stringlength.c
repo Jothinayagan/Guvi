@@ -1,8 +1,11 @@
 #include <stdio.h>
-#include<string.h>
-int main() {
-	char a[10]={'j','o','t','h','i'};
-	int b=strlen(a);
+#include <string.h>
+main()
+{
+	char a[20];
+	int b=0;
+	scanf("%s",a);
+	b=strlen(a);
 	printf("%d",b);
 	return 0;
 }
