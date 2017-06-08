@@ -1,6 +1,6 @@
 import java.util.*;
 import java.io.*;
-class LeastNum
+class FirstRepeat
 {
     static public void main(String[] args)
     {
@@ -11,10 +11,17 @@ class LeastNum
         Arrays.sort(a);
         int arrSize=a.length;
         int del=s.nextInt();
-        int z=arrSize-del;
-        for(int i=0;i<z;i++)
+        if(del<arrSize)
         {
-            System.out.print(a[i]);
+            int z=arrSize-del;
+            for(int i=0;i<z;i++)
+            {
+                System.out.print(a[i]);
+            }
+        }
+        else
+        {
+            System.out.println("Can't delete."+"\n"+"Check the Delete size");    
         }
     }
 }
