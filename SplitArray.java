@@ -22,7 +22,9 @@ class SplitArray
 		    	z=z+1;
 		        int brr[]=new int[m1];
 		        for(int j=0;j<(m1);j++)
-		        { brr[j]=arr[j];}
+		        { 
+			    brr[j]=arr[j];
+			}
 		        int n1=n-m1;
 		        int crr[]=new int[n1];
 		        int k=0;
