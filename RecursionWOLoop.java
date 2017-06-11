@@ -9,11 +9,11 @@ public class RecursionWOLoop
 	}
 	public static int size(int k) {
 		System.out.println(k);
-		k--;
 		if(k==0)
 		{
 			return 0;
 		}
+		k--;
 		return size(k);
 	}
 }
