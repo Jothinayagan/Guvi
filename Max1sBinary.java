@@ -7,7 +7,6 @@ public class Max1sBinary
         Scanner s=new Scanner(System.in);
         int n=s.nextInt();
         String c = Integer.toBinaryString(n);
-        System.out.println(c);
         String[] a=c.split("0");
         Arrays.sort(a);
         int n1=a.length;
