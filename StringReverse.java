@@ -9,8 +9,6 @@ class StringReverse
         StringBuilder strbld = new StringBuilder();
         strbld.append(str);
         strbld=strbld.reverse(); 
-        for(int i=0;i<strbld.length();i++)
-        System.out.print(strbld.charAt(i));  
+        System.out.print(strbld);  
     }
-    
 }
