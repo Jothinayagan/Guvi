@@ -9,7 +9,14 @@ class KbitBinarypro23 {
 		for(int i=0;i<ps;i++)
 		{
 		    bitcount[i]=Integer.toBinaryString(i);
-		    System.out.println(bitcount[i]);
-		}
+            	    while(bitcount[i].length()!=size)
+            	    {
+                	bitcount[i]="0"+bitcount[i];
+            	    }
+             	    if(i!=ps-1)
+		    	System.out.print(bitcount[i]+",");
+		    else
+		    	System.out.println(bitcount[i]);
+        	}
 	}
 }
