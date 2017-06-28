@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-class WordGFrstLeterCapsBegin108 
+class WordGFrstLeterCapsBegin107
 {
 	public static void main (String[] args) 
 	{
