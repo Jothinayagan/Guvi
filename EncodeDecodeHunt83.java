@@ -11,7 +11,7 @@ class EncodeDecodeHunt83
 	    {if(str[i].equals("x")){x=i;break;}}
 	    int a=Integer.valueOf(str[x-1]);String b="";
 	    while(a!=0){b=b.concat(str[x+1]);a--;}
-	    for(int d=0;d<x;d++){System.out.print(str[d]);}
+	    for(int d=0;d<x-1;d++){System.out.print(str[d]);}
 	    System.out.print(b);
 	    for(int e=x+1;e<str.length;e++){System.out.print(str[e]);}
 	}
